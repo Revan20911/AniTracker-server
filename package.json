@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "heroku": "^7.63.4"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "server": "cd server && node index.js",
+    "develop": "npm run server",
+    "start": "npm run server"
+  }
+}
