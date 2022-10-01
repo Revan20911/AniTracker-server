@@ -1,0 +1,28 @@
+{
+  "name": "anitracker",
+  "version": "1.0.0",
+  "description": "Track the shows you've watched and rate them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revan20911/AniTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Revan20911/AniTracker/issues"
+  },
+  "homepage": "https://github.com/Revan20911/AniTracker#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  }
+  
+}
